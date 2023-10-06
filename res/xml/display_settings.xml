@@ -151,8 +151,9 @@
         <com.rising.settings.preferences.AdaptiveSwitchPreference
             android:key="peak_refresh_rate"
             android:title="@string/peak_refresh_rate_title"
-            settings:controller="com.android.settings.display.PeakRefreshRatePreferenceController"
-            settings:position="middle"/>
+            settings:position="middle"
+            android:summary="@string/peak_refresh_rate_summary"
+            settings:controller="com.android.settings.display.PeakRefreshRatePreferenceController"/>
 
         <com.rising.settings.preferences.AdaptivePreference
             android:key="display_cutout_force_fullscreen_settings"
