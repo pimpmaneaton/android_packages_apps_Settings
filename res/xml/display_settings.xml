@@ -147,12 +147,6 @@
             settings:controller="com.android.settings.display.DisplayWhiteBalancePreferenceController"
             settings:position="middle"/>
 
-        <com.rising.settings.preferences.AdaptiveListPreference
-            android:key="max_refresh_rate"
-            android:title="@string/max_refresh_rate_title"
-            android:summary="@string/summary_placeholder"
-            settings:controller="com.android.settings.display.PeakRefreshRateListPreferenceController"
-            settings:position="middle" />
 
         <com.rising.settings.preferences.AdaptiveSwitchPreference
             android:key="peak_refresh_rate"
