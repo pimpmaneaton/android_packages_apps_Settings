@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 DerpFest
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="pixel_parts">Pixel Parts</string>
+    <string name="battery_info_title">Battery info</string>
+    <string name="battery_info_summary">View various battery information</string>
+    <string name="fast_charge_title">Fast charge</string>
+    <string name="fast_charge_summary">Enable CDP mode for fast charging on USB 2.0 ports</string>
+    <string name="saturation_title">Saturation</string>
+    <string name="saturation_summary">Control the saturation level of the display</string>
+    <string name="auto_hbm_title">Automatic HBM</string>
+    <string name="auto_hbm_summary">Automatically enable high brightness mode based on sunlight intensity (lux)</string>
+</resources>
