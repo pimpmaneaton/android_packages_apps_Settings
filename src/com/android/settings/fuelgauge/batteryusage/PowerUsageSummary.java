@@ -143,7 +143,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
                     mBatteryHeaderPreferenceController.updateHeaderByBatteryTips(
                             mBatteryTipPreferenceController.getCurrentBatteryTip(), batteryInfo);
                     mBatteryInfo = batteryInfo;
-                    mBatteryTempPref.setSummary(mBatteryInfo.batteryTemp + " \u2103");
+                    mBatteryTempPref.setSummary(mBatteryInfo.batteryTemp + " \u2109");
                 }
 
                 @Override
